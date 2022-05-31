@@ -1,3 +1,4 @@
 str = "Holberton School"
-print(str * 3)
-print(str[:9])
+print("{}{}{}".format(str, str, str))
+str = str[0:9]
+print("{}".format(str))
